@@ -184,3 +184,27 @@ main {
     grid-template-columns: 1fr;
   }
 }
+
+.page-head, .content-block, .case-study, .hero, .contact, .article {
+  margin-bottom: 1.25rem;
+}
+
+.content-block ul,
+.case-study ul {
+  padding-left: 1.25rem;
+}
+
+.signal-list a {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+}
+
+.signal-list a strong {
+  display: block;
+}
+
+.details {
+  border: 2px solid var(--line);
+}
